@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="visuallyhidden">Header</h2>
+      <div class="wrapper">
+        <nav class="header_nav">
+          <h2 class="visuallyhidden">Navigation</h2>
+          <a href="/" class="header_home"
+            >abhinav
+            <span class="visuallyhidden">(to home page)</span>
+          </a>
+          <a href="https://github.com/a6hynw" class="header_social"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24.61"
+              width="24"
+              viewBox="0 0 496 512"
+              aria-labelledby="socialGitHub"
+              role="img"
+            >
+              <title id="socialGitHub">GitHub</title>
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+              />
+            </svg>
+          </a>
+          <a href="" class="header_social"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24.6"
+              width="22"
+              viewBox="0 0 448 512"
+              aria-labelledby="socialInstagram"
+              role="img"
+            >
+              <title id="socialInstagram">Instagram</title>
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/abhinav-k-r" class="header_social"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              viewBox="0 0 448 512"
+              aria-labelledby="socialLinkedIn"
+              role="img"
+            >
+              <title id="socialLinkedIn">LinkedIn</title>
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              />
+            </svg>
+          </a>
+          <a href="mailto:abhinavkrid@gmail.com" class="header_social"
+            ><svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            height="26.28"
+              width="19.93"
+            viewBox="0 0 512 512"
+            aria-labelledby="socialE-Mail"
+            role="img"><title id="socialE-Mail">G-Mail</title>
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" 
+            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+          </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrapper hero_wrapper bottom_border">
+          <div class="hero_content">
+            <picture>
+              <source media="(62.5em)" srcset="assets/abhinav.jpg" />
+              <source media="(37.5em)" srcset="assets/abhinav.jpg" />
+              <div class="image-container"><img
+                class="hero_image"
+                src="assets/abhinav.jpg"
+                alt="picture of Abhinav"
+                width="174"
+                height="383"
+              /></div>
+            </picture>
+            <div class="hero_text header-xl">
+              <h1 class="hero_headline hero_typing">
+                Nice to<br />
+                meet you! I'm Abhinav k r.
+              </h1>
+              <p class="hero_discription subtitle">
+                Jr Python enthusiais AWS aspiarent love to do programming.
+                 obtain new skill. devops Docker
+              </p>
+              <a href="#contact" class="hero_contact underline">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="wrapper about_wrapper">
+          <div class="about_text header-xl">
+            <h2 class="about_headline">About me</h2>
+            <p class="about_discription">I am a dedicated and passionate individual with a strong interest in technology, particularly in software development. With a solid foundation in programming languages like HTML, CSS, Python, etc ... <br><br> I am enthusiastic about tackling new challenges and continuously expanding my skill set to contribute effectively in the dynamic field of technology. Throughout my academic journey, I have actively engaged in various coding projects and extracurricular activities, honing my problem-solving abilities and fostering creativity. <br><br>I thrive in collaborative environments and enjoy working with diverse teams to achieve common goals, leveraging effective communication and interpersonal skills. My proactive approach to learning allows me to adapt quickly to new technologies and methodologies, ensuring that I stay abreast of industry trends and best practices. I am deeply committed to delivering high-quality results and am driven by a strong sense of professionalism and integrity in all endeavors. Beyond my technical skills, I also value continuous self-improvement and seek opportunities for personal and professional growth. <br><br>Outside of work, I enjoy exploring new hobbies and interests, including photography, reading books, editing(Davinci Resolver) and cooking, which provide balance and inspiration in my life. Ultimately, I am motivated by a desire to make a positive impact in the world through innovation and creativity, and I am excited about the opportunities that lie ahead in my career.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="skills_item-1 wrapper skills_wrapper header-xl">
+          <h2 class="skills_title-1 title header-xl">Skills</h2>
+        </div>
+        <div class="wrapper skills_wrapper bottom_border">
+          <h2 class="visuallyhidden">Skills</h2>
+          <div class="skills_item">
+            <h3 class="skills_title">HTML</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+          <div class="skills_item">
+            <h3 class="skills_title">CSS</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+          <div class="skills_item">
+            <h3 class="skills_title">Javascript</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+          <div class="skills_item">
+            <h3 class="skills_title">AWS</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+          <div class="skills_item">
+            <h3 class="skills_title">Python</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+          <div class="skills_item">
+            <h3 class="skills_title">git/GitHub</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+          <div class="skills_item">
+            <h3 class="skills_title">Linux</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+          <div class="skills_item">
+            <h3 class="skills_title">Docker</h3>
+            <p class="skills_discription">#######</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="wrapper projects_wrapper">
+          <div class="projects_grid">
+            <h2 class="projects_headline header-xl">Projects</h2>
+            <a href="#contact" class="projects_contact underline">Contact Me</a>
+            <div class="projects_item">
+              <picture class="project_picture">
+                <source
+                media="(min-width: 62.5em)"
+                srcset="https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+                <img
+                class="projects_image"
+                src="https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="screenshot of design portfolio website"
+                width="343"
+                height="253"
+                />
+              </picture>
+              <h3 class="projects_name">Design Portfolio</h3>
+              <p class="projects_tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </p>
+              <div class="projects_links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+            <div class="projects_item">
+              <picture class="project_picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="https://plus.unsplash.com/premium_photo-1661634993112-6a019f5cc9e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+                <img
+                  class="projects_image"
+                  src="https://plus.unsplash.com/premium_photo-1661634993112-6a019f5cc9e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="screenshot of design portfolio website"
+                  width="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects_name">E-Learning Landing Page</h3>
+              <p class="projects_tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </p>
+              <div class="projects_links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+            <div class="projects_item">
+              <picture class="project_picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-gcp.marutitech.com%2Fwp-media%2F2017%2F03%2FIs-Python-the-most-popular-language-for-Data-Science.jpg&f=1&nofb=1&ipt=5c33cda1ab3cd83ad21d820766f4989dd37addab2792a6c2d0f279f1be8fdb8d&ipo=images"
+                />
+                <img
+                  class="projects_image"
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-gcp.marutitech.com%2Fwp-media%2F2017%2F03%2FIs-Python-the-most-popular-language-for-Data-Science.jpg&f=1&nofb=1&ipt=5c33cda1ab3cd83ad21d820766f4989dd37addab2792a6c2d0f279f1be8fdb8d&ipo=images"
+                  alt="screenshot of design portfolio website"
+                  width="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects_name">Snake Game</h3>
+              <p class="projects_tags">
+                <span>Python</span>
+              </p>
+              <div class="projects_links">
+                <a href="https://github.com/a6hynw/snake-game.git" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificate">
+        <div class="wrapper certificate_wrapper">
+          <div class="about_text ">
+            <h2 class="about_headline header-xl">Certificates</h2>
+            <p class="about_discription">
+              <h3 class="certificate_title">AWS Cloud Quest: Cloud
+              Practitioner :-</h3>
+              <a class="header_home certificate_link" href="https://www.credly.com/badg
+            es/536fd589-b07c-4284-adb
+            1-896e6fe967a8/linked_in_
+            profile">Click here</a>
+              </p>
+            
+            <p class="about_discription">
+              <h3 class="certificate_title">AWS Educate Getting Started with Storage :- </h3><a class="header_home certificate_link" href="https://www.credly.com/badges/0e3025fd-76fc-4893-afb1-88aefc26b33a/public_url">Click here</a>
+              </p>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="contact bg-less-dark" id="contact">
+        <div class="wrapper contact_wrapper bottom_border">
+          <div class="contact_text">
+            <h2 class="contact_headline header-xl">Contact</h2>
+            <p class="contact_discription">
+              For inquiries or collaborations, feel free to reach out to me via email at abhinavkrid@gmail.com or leave a Message.
+            </p>
+          </div>
+          <form id="form" method="post" class="contact_form">
+            <div class="contact_control">
+              <label for="name" class="visuallyhidden">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <img
+                src="/assets/icon-invalid.svg"
+                alt=""
+                class="contact_invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact_control">
+              <label for="email" class="visuallyhidden">E-Mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-Mail"
+                required
+              />
+              <img
+                src="/assets/icon-invalid.svg"
+                alt=""
+                class="contact_invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact_control">
+              <label for="message" class="visuallyhidden">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows=3"
+                placeholder="Message"
+                required
+              ></textarea>
+              <img
+                src="/assets/icon-invalid.svg"
+                alt=""
+                class="contact_invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact_control align-right">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bg-less-dark">
+      <h2 class="visuallyhidden">Footer</h2>
+      <div class="wrapper">
+        <nav class="header_nav">
+          <h2 class="visuallyhidden">Navigation</h2>
+          <a href="/" class="header_home"
+            >abhinav.
+            <span class="visuallyhidden">(to home page)</span>
+          </a>
+          <a href="https://github.com/a6hynw" class="header_social"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24.61"
+              width="24"
+              viewBox="0 0 496 512"
+              aria-labelledby="socialGitHub"
+              role="img"
+            >
+              <title id="socialGitHub">GitHub</title>
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+              />
+            </svg>
+          </a>
+          <a href="" class="header_social"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24.6"
+              width="22"
+              viewBox="0 0 448 512"
+              aria-labelledby="socialInstagram"
+              role="img"
+            >
+              <title id="socialInstagram">Instagram</title>
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/abhinav-k-r" class="header_social"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              viewBox="0 0 448 512"
+              aria-labelledby="socialLinkedIn"
+              role="img"
+            >
+              <title id="socialLinkedIn">LinkedIn</title>
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              />
+            </svg>
+          </a>
+          <a href="mailto:abhinavkrid@gmail.com" class="header_social"
+            ><svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            height="26.28"
+              width="19.93"
+            viewBox="0 0 512 512"
+            aria-labelledby="socialE-Mail"
+            role="img"><title id="socialE-Mail">G-Mail</title>
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" 
+            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+          </svg>
+          </a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyvZ9XjpNPNbE0zSNoOWs0N0W5gPcoqyBQ188wiAL2RPkysU4u0YAEdwwmMp0tsLDNLyA/exec"
+      const form = document.forms['form']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Success!"))
+          .then(() => {window.location.reload();})
+
+          // .then(() => {window.location.reload();})
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
